@@ -1,6 +1,6 @@
 import io from "socket.io-client";
 
-const SOCKET_URL = import.meta.env.VITE_API_URL || "https://ikkahin-hra.onrender.com";
+const SOCKET_URL ="https://ikkahin-hra.onrender.com";
 
 console.log("🔗 Connecting to Socket.io server at:", SOCKET_URL);
 
